@@ -43,4 +43,10 @@ gap: 1.5rem;
   color: #fff;
   font-weight: 800;
   font-size: 20px;
+  transition: .2s ease-in;
+}
+.links a:hover {
+  color :rgb(253, 197, 11);
+  font-weight: 900;
+  transition: .2s ease-out;
 }
