@@ -4,13 +4,15 @@ import { Link } from "react-router-dom"
 const Header = ()=>{
     return (
         <>
-        <div className="header">
-            <Link to="/">Home</Link>
-            <Link to="/">About</Link>
-            <Link to="/">Contact</Link>
-            <Link to="/">Projects</Link>
-            <Link to="/">Resume</Link>
-        </div>
+        <nav className="navbar bg-body-tertiary">
+  <div className="container-fluid">
+    <a className="navbar-brand">Navbar</a>
+    <form className="d-flex" role="search">
+      <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button className="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
         </>
     )
 }
