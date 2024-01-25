@@ -1,0 +1,124 @@
+@media screen and (max-width: 1600px) {
+    .section {
+        margin-top: 5%;
+    }
+    .hero-section .hero-logo,
+    .about-section .about-logo,
+    .contact-section .contact-logo {
+        width: 500px;
+        height: 500px;
+    }
+    .hero-text #description,
+    .about-text #description,
+    .contact-text #description {
+        width: 50%;
+    }
+    .nav-bar #mobile-btn {
+        display: none;
+    }
+    .contact-section {
+        margin: 3%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .section {
+        margin-top: 5%;
+    }
+    .hero-section .hero-logo,
+    .about-section .about-logo,
+    .contact-section .contact-logo {
+        width: 500px;
+        height: 500px;
+    }
+    .hero-text #description,
+    .about-text #description,
+    .contact-text #description,.skill-text #description {
+        width: 50%;
+    }
+    .nav-bar #mobile-btn {
+        display: none;
+    }
+    .contact-section {
+        margin: 2%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .section {
+        margin-top: 8%;
+    }
+    .hero-section .hero-logo,
+    .contact-section .contact-logo {
+        width: 400px;
+        height: 400px;
+    }
+    .hero-text #description,
+    .about-text #description,
+    .contact-text #description,.skill-text #description {
+        width: 50%;
+    }
+    .nav-bar #mobile-btn {
+        display: none;
+    }
+    .contact-section {
+        margin: 2%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .section {
+        margin-top: 8%;
+    }
+    .hero-section .hero-logo,
+    .about-section .about-logo,
+    .contact-section .contact-logo {
+        width: 300px;
+        height: 300px;
+    }
+    .hero-text #description,
+    .about-text #description,
+    .contact-text #description, .skill-text #description{
+        width: 60%;
+    }
+    .nav-bar #mobile-btn {
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .nav-bar .links {
+        display: none;
+    }
+    .section {
+        margin-top: 18%;
+    }
+    .contact-section {
+        margin-top: 28%;
+    }
+    .hero-section,
+    .about-section,
+    .contact-section,
+    .skill-section{
+        flex-direction: column;
+    }
+    .hero-section .hero-logo,
+    .about-section .about-logo,
+    .contact-section .contact-logo {
+        width: 250px;
+        height: 250px;
+    }
+    .hero-text #description,
+    .about-text #description,
+    .contact-text #description ,
+    .skill-text #description{
+        width: 100%;
+    }
+    .nav-bar #mobile-btn {
+        display: block;
+    }
+    .about-section .about-logo,
+    .contact-section .contact-logo {
+        width: 250px;
+        height: 250px;
+    }
+    .contact-section {
+        margin: 0;
+    }
+}
