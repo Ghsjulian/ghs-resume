@@ -283,8 +283,8 @@ body {
 .about-section .about-logo,
 .contact-section .contact-logo {
     border-radius: 50%;
-    object-fit: cover;
-    animation: 1.3s zoom 1;
+    object-fit: fill;
+    animation: 1s zoom 1;
 }
 .about-section .about-text,
 .contact-section .contact-text {

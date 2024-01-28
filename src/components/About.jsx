@@ -6,7 +6,7 @@ const About = ()=>{
          {/*<!-- Section Started -->*/}
             <div className="section">
                 <div className="about-section">
-                    <img className="about-logo" src="./images/ghs.png" />
+                    <img className="about-logo" src="./images/abt_2.png" />
                     <div className="about-text">
                         {/*<!--<h2 id="text-1">Welcome To My Portfolio</h2>-->*/}
                         <h2 id="text-2">
@@ -19,6 +19,10 @@ const About = ()=>{
                             directly contact with me or you can follow me on my
                             social media.
                         </p>
+                  <p id="description">
+                  I'm a Web Developer Programmer & Freelancer you can also hire me if you have any projects. I am always available for jobs. I live in Bangladesh, I am working as a freelancer on
+                  marketplaces.
+                  </p>
                     </div>
                 </div>
             </div>

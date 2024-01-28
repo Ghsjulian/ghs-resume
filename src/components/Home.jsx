@@ -7,7 +7,7 @@ const Home = () => {
             {/* <!-- Section Started -->*/}
             <div className="section">
                 <div className="hero-section">
-                    <img className="hero-logo" src="./images/ghs.png" />
+                    <img className="hero-logo" src="./images/logo.png" />
                     <div className="hero-text">
                         {/*<!--<h2 id="text-1">Welcome To My Portfolio</h2>-->*/}
                         <h2 id="text-2">
