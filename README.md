@@ -7,6 +7,11 @@ This portfolio has made using react+vite . It is super fast template created by 
 </strong>
 <br><br>
 
+## Live Demo :---
+https://ghsresume.netlify.app
+
+
+<br><br>
 
 ## Installation :---
 
