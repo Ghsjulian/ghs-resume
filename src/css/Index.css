@@ -38,6 +38,7 @@ body {
 *     Nav Bar (Header Styling.....)
 */
 .nav-bar {
+    z-index: 1230;
     width: 100%;
     left: 0;
     top: 0;
@@ -70,6 +71,8 @@ body {
     color: var(--logo);
     font-weight: 900;
     font-family: Poppin-Bold;
+    word-spacing: 2px;
+    /*animation: 1s animationTwo linear infinite;*/
 }
 .links a {
     color: var(--link);
@@ -130,7 +133,6 @@ body {
 */
 
 .section {
-    background:;
 }
 .hero-section {
     display: flex;
@@ -138,7 +140,7 @@ body {
     padding: 0.5rem 1.5rem;
     align-items: center;
     gap: 1rem;
-    height: 90vh;
+    height: 100vh;
 }
 .hero-section .hero-logo {
     border-radius: 50%;
@@ -156,6 +158,7 @@ body {
     font-weight: 500;
     line-height: 1.5rem;
     word-spacing: 2px;
+    font-size: 15px;
     margin: 0.3rem;
     text-align: center;
     text-transform: capitalize;
@@ -164,7 +167,7 @@ body {
 .hero-text .btn-area {
     display: flex;
     justify-content: space-around;
-    padding: 0.5rem 1.5rem;
+    padding: 0.2rem 1.5rem;
     align-items: center;
     gap: 1rem;
 }
@@ -453,4 +456,181 @@ body {
 .skill-outer #in-13 {
     background: #e60b4a;
     width: 80%;
+}
+
+/*   Project Styling Area  */
+.section #Projects {
+    padding: 0.5rem 0.6rem;
+}
+.section .cart-area {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    max-width: 650px;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0.6rem;
+    border-radius: 8px;
+    background: #001929;
+    text-decoration: none;
+}
+.cart-area #remove {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    width: 33px;
+    height: 33px;
+    display: block;
+    background: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.3rem 0.5rem;
+}
+.cart-area .cart-list {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+.cart-area .cart-list img {
+    width: 90px;
+    height: 90px;
+    object-fit: fill;
+    border-radius: 15px;
+}
+.cart-list .cart-div {
+    text-align: left;
+    padding: 0 0.3rem;
+}
+.cart-div p {
+    color: #fff;
+    font-size: 15px;
+    font-family: Poppin-Bold;
+}
+.cart-div p span {
+    font-family: Poppin-Thin;
+    font-size: 15px;
+    margin: 0 0.3rem;
+}
+.cart-div p #sp_1 {
+    color: #de5c00;
+}
+.cart-div p #sp_2 {
+    color: #0ff9ff;
+}
+.cart-div p #sp_3 {
+    color: #fff222;
+}
+
+/*  Hero zlogo text */
+.head {
+    text-align: center;
+    color: rgb(254, 24, 255);
+    font-size: 24px;
+    font-family: serif;
+    margin: 0.7rem auto;
+}
+.head span {
+    color: #fff534;
+}
+.type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2.5rem, 2.8vw, 5rem);
+    font-family: Times New Roman;
+    font-weight: bold;
+    margin: 0 0.5rem;
+}
+
+.typewriter {
+    width: 90%;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    overflow: hidden;
+    font-size: 23px;
+    border-right: 4px solid #ffffff;
+    animation:
+        cursor 1.6s step-start infinite,
+        text 1.5s steps(40) alternate infinite;
+    margin: 0.3rem auto;
+}
+
+@keyframes cursor {
+    0%,
+    100% {
+        border-color: #57f4ff;
+    }
+}
+
+@keyframes text {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 85%;
+        padding: 3px;
+    }
+}
+.animationOne {
+    animation: animationOne 1s 5ms 1;
+}
+@keyframes animationOne {
+    from {
+        margin-left: 30px;
+        opacity: 0;
+        filter: blur(5px);
+    }
+    to {
+        margin-left: 0;
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+.animationTwo {
+    animation: animationTwo 1s 5ms 1;
+    opacity: 0;
+}
+@keyframes animationTwo {
+    from {
+        margin-left: 0;
+        opacity: 1;
+        filter: blur(0);
+    }
+    to {
+        margin-left: 30px;
+        opacity: 0;
+        filter: blur(5px);
+    }
+}
+
+.foot {
+    align-items: center;
+    justify-content: space-around;
+    margin: 1.7rem auto;
+    padding: 0.2rem 0.7rem;
+}
+.foot a {
+    margin-top: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin: 0 0.5rem;
+}
+.foot a i {
+    color: #fff;
+    background: #00646a;
+    display: inline-block;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 22px;
 }

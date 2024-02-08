@@ -1,6 +1,7 @@
 import React from "react";
 
 const Skills = () => {
+document.title = "See My All Skills | My Skills"
     return (
         <>
             {/*<!-- Section Started -->*/}

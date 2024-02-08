@@ -1,7 +1,8 @@
 import React from "react"
 
 const About = ()=>{
-    return (
+ document.title="About Myself | See All About Myself Here"
+ return (
         <>
          {/*<!-- Section Started -->*/}
             <div className="section">

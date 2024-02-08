@@ -1,6 +1,7 @@
 import React from "react";
 
 const Contact = () => {
+  document.title = "Contact With Me | Or You Can Follow Me On My Social Media"
     return (
         <>
             {/*<!-- Section Started -->*/}
